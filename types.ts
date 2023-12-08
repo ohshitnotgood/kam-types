@@ -39,6 +39,7 @@ export type FormResponse = {
  * JSON type for a response to a particular question when sending data to `form/respond/`
  */
 export type QuestionResponse = {
+    id?: string,
     questionId: string,
     value: string
 }
